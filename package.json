@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "rolldown src/index.js --file dist/bundle.js"
+    "build": "rolldown -c rolldown.config.ts"
   },
   "keywords": [],
   "author": "",
