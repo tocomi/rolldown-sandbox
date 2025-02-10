@@ -8,7 +8,9 @@ import { defineDevConfig } from './define-dev-config.js'
 import type { DevConfig } from './define-dev-config.js'
 
 async function loadDevConfig(): Promise<DevConfig> {
-  const exports = await import(nodePath.join(process.cwd(), 'dev.config.mjs'))
+  const exports = await import(
+    nodePath.join(process.cwd(), 'rolldown.dev.config.mjs')
+  )
   return exports.default
 }
 
