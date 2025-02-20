@@ -13,7 +13,7 @@
     "serve:webpack": "pnpm build:webpack && npx http-server dist -p 8080",
     "dev:rspack": "rspack dev",
     "build:rspack": "rspack build",
-    "serve:rspack": "rspack build:rspack && npx http-server dist -p 8080"
+    "serve:rspack": "pnpm build:rspack && npx http-server dist -p 8080"
   },
   "keywords": [],
   "author": "",
