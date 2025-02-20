@@ -8,6 +8,9 @@
     "dev:app": "pnpm --filter app dev",
     "build:app": "pnpm --filter app build",
     "serve:app": "pnpm --filter app serve",
+    "dev:webpack": "pnpm --filter app dev:webpack",
+    "build:webpack": "pnpm --filter app build:webpack",
+    "serve:webpack": "pnpm --filter app serve:webpack",
     "build:dev-server": "pnpm --filter @rolldown/test-dev-server build"
   },
   "keywords": [],
