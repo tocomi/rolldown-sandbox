@@ -10,7 +10,7 @@ export default {
   entry: './src/main.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle_webpack.js',
+    filename: 'bundle_rspack.js',
     clean: true,
   },
   module: {

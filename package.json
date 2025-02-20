@@ -11,6 +11,9 @@
     "dev:webpack": "pnpm --filter app dev:webpack",
     "build:webpack": "pnpm --filter app build:webpack",
     "serve:webpack": "pnpm --filter app serve:webpack",
+    "dev:rspack": "pnpm --filter app dev:rspack",
+    "build:rspack": "pnpm --filter app build:rspack",
+    "serve:rspack": "pnpm --filter app serve:rspack",
     "build:dev-server": "pnpm --filter @rolldown/test-dev-server build"
   },
   "keywords": [],
