@@ -13,3 +13,13 @@ pnpm dev:app
 ```
 
 で多分動くと思う
+
+## ビルド比較してみた
+
+適当に色んなライブラリを import したコンポーネントに対して、production build のビルド時間とバンドルサイズを比較
+
+| ライブラリ | min | max | avg | bundle size |
+| --- | --- | --- | --- | --- |
+| rolldown | 0.54s | 0.58s | 0.55s | 1.7MB |
+| rspack | 5.29s | 5.54s | 5.39s | 1.6MB |
+| webpack | 19.18s | 20.17s | 19.51s | 1.5MB |
